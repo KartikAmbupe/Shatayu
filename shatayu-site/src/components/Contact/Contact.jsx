@@ -1,11 +1,11 @@
 const Contact = () => {
     return (
-        <div className="relative flex items-top justify-center min-h-[700px] bgWhite sm:items-center sm:pt-0">
+        <div className="relative flex items-top justify-center min-h-[600px] bgWhite sm:items-center sm:pt-0">
             <div className="maxW-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
                         <div className="p-6 mr-2 bg-gray-100 sm:roundedLg">
-                            <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
+                            <h1 className="text-3xl sm:text-4xl text-gray-800 font-bold tracking-tight">
                                 Get in touch: 
                             </h1>
                             <p className="text-normal textLg sm:text-xl font-medium text-gray-600 mt-2">
@@ -36,7 +36,7 @@ const Contact = () => {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md trackingWide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                    Mumbai
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md trackingWide font-semibold w-40">
-                                    +44 1234567890
+                                    +91 1234567890
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md trackingWide font-semibold w-40">
-                                    info@acme.org
+                                    info@shatayu.com
                                 </div>
                             </div>
                         </div>
@@ -120,14 +120,14 @@ const Contact = () => {
                                     type="tel"
                                     name="tel"
                                     id="tel"
-                                    placeholder="Telephone Number"
+                                    placeholder="Phone Number"
                                     className="w-100 mt-2 py-3 px-3 roundedLg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                 />
                             </div>
 
                             <button
                                 type="submit"
-                                className="md:w-32 bg-orange-700 hover:bg-blue-dark textWhite font-bold py-3 px-6 roundedLg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
+                                className="text-white md:w-32 bg-orange-700 hover:bg-blue-dark textWhite font-bold py-3 px-6 roundedLg mt-3 hover:bg-orange-500 transition ease-in-out duration-300"
                             >
                                 Submit
                             </button>
