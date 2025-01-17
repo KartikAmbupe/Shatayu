@@ -4,7 +4,7 @@ const Contact = () => {
             <div className="maxW-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className="p-6 mr-2 bg-gray-100 sm:roundedLg">
+                        <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
                             <h1 className="text-3xl sm:text-4xl text-gray-800 font-bold tracking-tight">
                                 Get in touch: 
                             </h1>
@@ -35,12 +35,12 @@ const Contact = () => {
                                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                     />
                                 </svg>
-                                <div className="ml-4 text-md trackingWide font-semibold w-40">
-                                    Mumbai
+                                <div className="ml-4 font-semibold w-60">
+                                    Kolhapur | Pune | Mumbai
                                 </div>
                             </div>
 
-                            <div className="flex items-center mt-4 text-gray-600">
+                            <div className="flex items-center mt-3 text-gray-600 ">
                                 <svg
                                     fill="none"
                                     stroke="currentColor"
@@ -95,7 +95,7 @@ const Contact = () => {
                                     name="name"
                                     id="name"
                                     placeholder="Full Name"
-                                    className="w-100 mt-2 py-3 px-3 roundedLg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
+                                    className="w-100 mt-2 py-3 px-3 rounded-lg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                 />
                             </div>
 
@@ -108,7 +108,7 @@ const Contact = () => {
                                     name="email"
                                     id="email"
                                     placeholder="Email"
-                                    className="w-100 mt-2 py-3 px-3 roundedLg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
+                                    className="w-100 mt-2 py-3 px-3 rounded-lg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                 />
                             </div>
 
@@ -121,7 +121,7 @@ const Contact = () => {
                                     name="tel"
                                     id="tel"
                                     placeholder="Phone Number"
-                                    className="w-100 mt-2 py-3 px-3 roundedLg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
+                                    className="w-100 mt-2 py-3 px-3 rounded-lg bgWhite border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                 />
                             </div>
 

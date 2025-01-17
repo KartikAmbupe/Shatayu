@@ -18,7 +18,7 @@ function Home() {
                                     <span className="hidden sm:block text-xl">Refreshing Drink</span>
                                 </h2>
                                 <Link
-                                    className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
+                                    className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:bg-orange-500 transition ease-in-out duration-300"
                                     to="/"
                                 >
                                     <FaShoppingCart className='mr-2'/> Order now

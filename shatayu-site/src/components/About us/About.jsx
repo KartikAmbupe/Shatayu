@@ -5,8 +5,8 @@ const About = () => {
         <div className="py-10">
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:5/12 lg:w-5/12">
-                        <img
+                    <div className="md:5/12 lg:w-5/12 flex justify-center">
+                        <img className='rounded-full w-3/4'
                             src={logo}
                             alt="image"
                         />
