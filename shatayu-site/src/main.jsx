@@ -8,7 +8,6 @@ import About from './components/About us/About'
 import Contact from './components/Contact/Contact'
 import User from './components/User/User'
 
-
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
