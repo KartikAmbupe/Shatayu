@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import awla from '../../assets/Images/awla-juice.png'
+import awla from '/src/assets/Images/awla-juice.png'
 import { FaShoppingCart } from "react-icons/fa";
 
 

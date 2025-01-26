@@ -1,4 +1,4 @@
-import logo from '../../assets/Images/shatayu-logo.png'
+import logo from '/src/assets/Images/shatayu-logo.png'
 
 const About = () => {
     return (
@@ -32,4 +32,4 @@ const About = () => {
     );
 }
 
-export default About
+export default About;

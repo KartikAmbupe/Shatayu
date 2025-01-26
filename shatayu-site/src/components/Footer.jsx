@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import logo from "../../assets/Images/shatayu-logo.png"
+import logo from '/src/assets/Images/shatayu-logo.png'
 
 function Footer() {
     return (

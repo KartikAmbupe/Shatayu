@@ -1,12 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Home from './components/Home/Home'
+import Home from './components/Home'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout'
-import About from './components/About us/About'
-import Contact from './components/Contact/Contact'
-import User from './components/User/User'
+import About from './components/About'
+import Contact from './components/Contact'
+import Login from './components/Login'
 
 // const router = createBrowserRouter([
 //   {
@@ -36,7 +36,7 @@ const router = createBrowserRouter( //Alternative way
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />}/>
       <Route path='contact' element={<Contact />}/>
-      <Route path='user/:userid' element={<User />}/>
+      <Route path='login' element={<Login />}/>
     </Route>
 
   )
