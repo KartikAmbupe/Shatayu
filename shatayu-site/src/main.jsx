@@ -14,29 +14,7 @@ import Contact from "./components/Contact";
 import LoginLayout from "./LoginLayout";
 import Login from "./components/Login";
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Layout />,
-//     children: [
-//       {
-//         path: "",
-//         element: <Home />
-//       },
-//       {
-//         path: "about",
-//         element: <About/>
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact />
-//       }
-//     ]
-//   }
-// ])
-
 const router = createBrowserRouter(
-  //Alternative way
   createRoutesFromElements(
     <>
       <Route path="/" element={<Layout />}>
